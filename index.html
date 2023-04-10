@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/338f956a46.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main bg-gray-200 w-full">
+        <div class="header">
+            <div class="headline bg-red-600 flex items-center text-white text-xs h-4 justify-center">Free Shipping on
+                All order|Track order</div>
+
+            <div class="main-header bg-white h-10 flex items-center relative justify-center ">
+                <!-- left-side -->
+                <div class="left-side flex items-center absolute top-0 left-0">
+                    <div class="slidebar m-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </div>
+                    <div class="search mr-10 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </div>
+
+                </div>
+                <!-- logo -->
+                <div class="logo m-1">
+                    <img class="h-5"
+                        src="https://images.gc-static.com/p-wf/5fa20595e8121d77f3d52ca2/5fa2098eff9a8733d626faaa_logo.svg" />
+                </div>
+                <!-- right-side -->
+
+                <div class="right-side absolute top-0 right-0 m-2 flex items-center">
+                    <div class="search mr-10 ">
+                        <i class="fa-regular fa-heart fa-lg" style="color: #050505;"></i>
+                    </div>
+                    <!-- cart-logo -->
+                    <div class="cart absolute top-0 right-0 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="categories flex items-center justify-between mx-16">
+            <span>MEN</span>
+            <span>MEN</span>
+            <span>MEN</span>
+        </div>
+        <div class="slide-img ">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="product4.webp" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="product3.webp" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="product4.webp" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="trending bg-white mt-4 ml-3">
+            <span class="text-xl font-bold m-2">TOP TRENDING</span>
+            <div class="cards ml-3 mt-2 flex flex-wrap gap-6 justify-center">
+            <div class="card w-25 h-16 ">
+                <div class="img relative">
+                   
+                    <div class="icon absolute top-0 right-0 m-1 flex items-center">
+                    <i class="fa-solid fa-heart heart mt-5" style="color: #f1f2f3;"></i>
+                    <i class="fa-solid fa-cart-plus addcart " style="color: #f5f7f9;"></i>
+                     </div>
+                    <img src="top-selling/product1.webp"/>
+
+                    <div class="desc flex flex-column text-xs p-1">
+                        <span >DC:Girl Gang</span>
+                        <span>Shirts</span>
+                        <span>$1049</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-25 h-16 ">
+                <div class="img relative">
+                   
+                    <div class="icon absolute top-0 right-0 m-1 flex items-center">
+                    <i class="fa-solid fa-heart heart mt-5" style="color: #f1f2f3;"></i>
+                    <i class="fa-solid fa-cart-plus addcart " style="color: #f5f7f9;"></i>
+                     </div>
+                    <img src="top-selling/product1.webp"/>
+
+                    <div class="desc flex flex-column text-xs p-1">
+                        <span >DC:Girl Gang</span>
+                        <span>Shirts</span>
+                        <span>$1049</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-25 h-16 ">
+                <div class="img relative">
+                   
+                    <div class="icon absolute top-0 right-0 m-1 flex items-center">
+                    <i class="fa-solid fa-heart heart mt-5" style="color: #f1f2f3;"></i>
+                    <i class="fa-solid fa-cart-plus addcart " style="color: #f5f7f9;"></i>
+                     </div>
+                    <img src="top-selling/product1.webp"/>
+
+                    <div class="desc flex flex-column text-xs p-1">
+                        <span >DC:Girl Gang</span>
+                        <span>Shirts</span>
+                        <span>$1049</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-25 h-16 ">
+                <div class="img relative">
+                   
+                    <div class="icon absolute top-0 right-0 m-1 flex items-center">
+                    <i class="fa-solid fa-heart heart mt-5" style="color: #f1f2f3;"></i>
+                    <i class="fa-solid fa-cart-plus addcart " style="color: #f5f7f9;"></i>
+                     </div>
+                    <img src="top-selling/product1.webp"/>
+
+                    <div class="desc flex flex-column text-xs p-1">
+                        <span >DC:Girl Gang</span>
+                        <span>Shirts</span>
+                        <span>$1049</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-25 h-16 ">
+                <div class="img relative">
+                   
+                    <div class="icon absolute top-0 right-0 m-1 flex items-center">
+                    <i class="fa-solid fa-heart heart mt-5" style="color: #f1f2f3;"></i>
+                    <i class="fa-solid fa-cart-plus addcart " style="color: #f5f7f9;"></i>
+                     </div>
+                    <img src="top-selling/product1.webp"/>
+
+                    <div class="desc flex flex-column text-xs p-1">
+                        <span >DC:Girl Gang</span>
+                        <span>Shirts</span>
+                        <span>$1049</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-25 h-16 ">
+                <div class="img relative">
+                   
+                    <div class="icon absolute top-0 right-0 m-1 flex items-center">
+                    <i class="fa-solid fa-heart heart mt-5" style="color: #f1f2f3;"></i>
+                    <i class="fa-solid fa-cart-plus addcart " style="color: #f5f7f9;"></i>
+                     </div>
+                    <img src="top-selling/product1.webp"/>
+
+                    <div class="desc flex flex-column text-xs p-1">
+                        <span >DC:Girl Gang</span>
+                        <span>Shirts</span>
+                        <span>$1049</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-25 h-16 ">
+                <div class="img relative">
+                   
+                    <div class="icon absolute top-0 right-0 m-1 flex items-center">
+                    <i class="fa-solid fa-heart heart mt-5" style="color: #f1f2f3;"></i>
+                    <i class="fa-solid fa-cart-plus addcart " style="color: #f5f7f9;"></i>
+                     </div>
+                    <img src="top-selling/product1.webp"/>
+
+                    <div class="desc flex flex-column text-xs p-1">
+                        <span >DC:Girl Gang</span>
+                        <span>Shirts</span>
+                        <span>$1049</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-25 h-16 ">
+                <div class="img relative">
+                   
+                    <div class="icon absolute top-0 right-0 m-1 flex items-center">
+                    <i class="fa-solid fa-heart heart mt-5" style="color: #f1f2f3;"></i>
+                    <i class="fa-solid fa-cart-plus addcart " style="color: #f5f7f9;"></i>
+                     </div>
+                    <img src="top-selling/product1.webp"/>
+
+                    <div class="desc flex flex-column text-xs p-1">
+                        <span >DC:Girl Gang</span>
+                        <span>Shirts</span>
+                        <span>$1049</span>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        <div class="brands bg-white mt-3 ml-3">
+            <span class="text-xl font-bold m-2">OFFICIAL MERCHANDISE</span>
+            <div class="brand-img flex ">
+
+                <!-- <i class="fa-solid fa-angle-left "></i> -->
+                <div class="carousel flex overflow-y-hidden overflow-x-scroll justify-between ">
+                   
+                        <img class="m-2 " src="sliderimg/brand-1.webp" />
+                        <img class="m-2 img" src="sliderimg/brand-2.webp" />
+                        <img class="m-2 img" src="sliderimg/brand-3.webp" />
+                        <img class="m-2 img" src="sliderimg/brand-4.webp" />
+                        <img class="m-2 img" src="sliderimg/brand-5.webp" />
+                        <img class="m-2 img"  src="sliderimg/brand-1.webp" />
+                        <img class="m-2 img" src="sliderimg/brand-1.webp" />
+                        <img class="m-2 img" src="sliderimg/brand-1.webp" />
+                        <img class="m-2 " src="sliderimg/brand-1.webp" />
+                    
+                </div>
+                <!-- <i class="fa-solid fa-angle-right"></i> -->
+            </div>
+        </div>
+    </div>
+    <div class="main h-screen flex">
+        <div
+            class="main-slidebar w-64 bg-blue z-20 fixed top-0 -left-96 lg:left-0 h-screen  lg:w-1\/5  bg-white  shadow-2xl peer-focus:left-0 peer-transition ease-out delay-150 duration-200  ">
+            <i class=" close fa-solid fa-xmark fa-lg ml-6 flex items-center" style="color:black;"></i>
+          <div class="parts bg-white text-2xl text-gray-800 mt-10 ml-3 ">
+            <div class="tshirt part ml-2 mr-2">
+                <span>oversized-tshirt</span>
+            </div>
+            <div class="tshirt part ml-2 mr-2">
+                <span>oversized-tshirt</span>
+            </div>
+            <div class="tshirt part ml-2 mr-2">
+                <span>oversized-tshirt</span>
+            </div>
+            <div class="tshirt part ml-2 mr-2">
+                <span>oversized-tshirt</span>
+            </div>
+            <div class="tshirt part ml-2 mr-2">
+                <span>oversized-tshirt</span>
+            </div>
+          </div>
+            
+             
+        </div>
+    </div>
+
+    <script src="./app.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
